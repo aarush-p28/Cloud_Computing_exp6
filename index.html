@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Task Tracker</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="card">
+    <h1>Task Tracker</h1>
+    <p class="subtitle">A basic app, ready for AWS Amplify Hosting.</p>
+
+    <form id="task-form">
+      <input id="task-input" type="text" placeholder="Add a task..." autocomplete="off" required />
+      <button type="submit">Add</button>
+    </form>
+
+    <ul id="task-list"></ul>
+
+    <footer>
+      <span id="count"></span>
+      <button id="clear" type="button" class="link">Clear completed</button>
+    </footer>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
